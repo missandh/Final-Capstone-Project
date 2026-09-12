@@ -1,0 +1,62 @@
+[
+  {
+    "doc_id": "KB-01",
+    "topic": "appointment-booking policy",
+    "content": "Appointments on Practo can be scheduled up to 30 days in advance via the mobile application or website. Patients receive instant SMS and email confirmation once slot allocation is finalized. Walk-in token slots are subject to on-ground clinic queue availability."
+  },
+  {
+    "doc_id": "KB-02",
+    "topic": "cancellation/rescheduling window",
+    "content": "Cancellations and rescheduling requests are accepted at zero penalty up to 2 hours prior to the scheduled slot. Cancellations initiated within 2 hours of the slot incur a 50% cancellation deduction on the paid fee. No refunds are permitted once the consultation slot has passed."
+  },
+  {
+    "doc_id": "KB-03",
+    "topic": "consultation-fee structure by specialty",
+    "content": "Standard consultation fees vary according to clinical specialty. General Medicine ranges from 400 to 700 INR, Pediatrics from 500 to 800 INR, and Dermatology between 700 and 1200 INR. Super-specialties including Cardiology and Orthopedics range between 800 and 1600 INR."
+  },
+  {
+    "doc_id": "KB-04",
+    "topic": "insurance-claim process",
+    "content": "Practo provides digitized itemized bills and receipts to facilitate post-consultation reimbursement. Direct cashless settlement is available exclusively for networked day-care procedures and hospital admissions. Outpatient consultations must be settled upfront and submitted as manual claims."
+  },
+  {
+    "doc_id": "KB-05",
+    "topic": "prescription-refill policy",
+    "content": "Prescription renewals for chronic illnesses require an active consultation record within the preceding 90 days. Doctors will not refill Schedule H or X medications without a real-time teleconsultation check. Refill requests must be initiated through the patient profile tab."
+  },
+  {
+    "doc_id": "KB-06",
+    "topic": "lab-test turnaround times",
+    "content": "Standard routine blood panels and urinalysis reports are delivered digitally within 24 hours of home sample collection. Specialized diagnostic cultures, biopsy screenings, and genetic panels require 3 to 5 business days. Real-time test tracking is available inside the diagnostics portal."
+  },
+  {
+    "doc_id": "KB-07",
+    "topic": "telemedicine eligibility",
+    "content": "Online video consultations are suitable for non-emergency triage, routine review, follow-up evaluations, and primary diagnostic screening. Conditions presenting severe acute respiratory distress, deep trauma, sudden paralysis, or active cardiac distress are strictly ineligible for telemedicine."
+  },
+  {
+    "doc_id": "KB-08",
+    "topic": "emergency-visit protocol",
+    "content": "Practo is not an emergency response provider. In case of life-threatening emergencies, patients must immediately dial 112 or report to the nearest tertiary care emergency room. The support agent is instructed to divert all active trauma and chest pain queries to physical emergency services."
+  },
+  {
+    "doc_id": "KB-09",
+    "topic": "patient-data privacy policy",
+    "content": "Patient electronic health records are encrypted at rest using AES-256 and transmitted under TLS 1.3 encryption. Practo strictly complies with ISO 27001 standards and does not sell identifiable clinical records to third-party advertisers. Medical records are shared only with explicit patient consent during specialist referrals."
+  },
+  {
+    "doc_id": "KB-10",
+    "topic": "follow-up-visit discount policy",
+    "content": "A 100% complimentary follow-up window is available within 7 days of the primary consultation for the same diagnosis. Between day 8 and day 14, a flat 20% discount is automatically applied during rebooking. Any visit beyond day 14 is billed as a fresh consultation."
+  },
+  {
+    "doc_id": "KB-11",
+    "topic": "second-opinion process",
+    "content": "Patients can request independent clinical reviews by uploading historical discharge summaries, lab tests, and imaging to the second-opinion desk. An accredited senior specialist reviews the case file and delivers a signed clinical opinion within 48 business hours."
+  },
+  {
+    "doc_id": "KB-12",
+    "topic": "home-visit eligibility",
+    "content": "Home visits by clinicians and phlebotomists are available exclusively within designated metropolitan limits for bedridden, elderly, or postoperative patients. Bookings must be requested at least 24 hours in advance and remain contingent on daily medical personnel routing."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "record_id": "PRAC-1000",
+    "category": "General Medicine",
+    "status": "Scheduled",
+    "consultation_fee_inr": 450,
+    "days_since_created": 5,
+    "follow_up_required": false
+  },
+  {
+    "record_id": "PRAC-1001",
+    "category": "Cardiology",
+    "status": "Completed",
+    "consultation_fee_inr": 1200,
+    "days_since_created": 12,
+    "follow_up_required": true
+  },
+  {
+    "record_id": "PRAC-1002",
+    "category": "Dermatology",
+    "status": "Cancelled",
+    "consultation_fee_inr": 850,
+    "days_since_created": 1,
+    "follow_up_required": false
+  },
+  {
+    "record_id": "PRAC-1003",
+    "category": "Pediatrics",
+    "status": "No-Show",
+    "consultation_fee_inr": 700,
+    "days_since_created": 22,
+    "follow_up_required": true
+  },
+  {
+    "record_id": "PRAC-1004",
+    "category": "Orthopedics",
+    "status": "Rescheduled",
+    "consultation_fee_inr": 1050,
+    "days_since_created": 7,
+    "follow_up_required": false
+  }
+]
