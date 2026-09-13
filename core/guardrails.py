@@ -18,7 +18,7 @@ INJECTION_KEYWORDS = [
 
 def mask_pii_contact(text: str) -> str:
     """Masks Indian phone numbers to preserve privacy in logs and agent contexts."""
-    return re.sub(PHONE_REGEX, "[REDACTED_PHONE]", text)
+    return re.sub(PHONE_REGEX, "[PHONE]", text)
 
 
 def detect_prompt_injection(text: str) -> bool:

@@ -24,6 +24,10 @@ class DocRequest(BaseModel):
     content: str
 
 
+class QueryPayload(BaseModel):
+    text: str
+
+
 @app.post("/ask", response_model=AgentResponseSchema)
 def ask_support(req: QueryRequest):
     t0 = time.time()
@@ -50,6 +54,13 @@ def add_document(doc: DocRequest):
     t0 = time.time()
     trace_id = log_structured_event("KB_INSERT", f"Added {doc.doc_id}", 200, (time.time() - t0) * 1000)
     return {"status": "success", "doc_id": doc.doc_id, "trace_id": trace_id}
+
+
+@app.post("/query")
+def query_endpoint(payload: QueryPayload):
+    if detect_prompt_injection(payload.text):
+        raise HTTPException(status_code=400, detail="Security violation: Prompt injection detected.")
+    return {"status": "accepted"}
 
 
 @app.websocket("/ws/chat")
